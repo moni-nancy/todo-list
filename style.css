@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Caveat', cursive;
+  background-color: #36454F;
+  color: #fff;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  width: 80%;
+  margin: 60px auto;
+  align-items: center;
+  padding: 20px;
+  box-shadow: inset 0px -1px 0px 6px #000;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+form{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+
+
+input::placeholder{
+  font-family: 'Caveat', cursive;
+}
+.add-button {
+  font-family: 'Caveat', cursive;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #3e8e41;
+}
+
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  color: #000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.todo-list li .todo-text {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 16px;
+}
+li .edit-todo-input{
+  flex: 1;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+
+li button {
+  margin-left: 10px;
+}
+
+form {
+  display: flex;
+  margin-top: 20px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+ li .edit-btn,
+li .delete-btn, 
+li .cancel-btn,
+li .delete-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+li .save-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+li .save-btn:hover {
+  background-color: #3e8e41;
+}
+
+li .cancel-btn {
+  background-color: #f44336;
+  color: #fff;
+  margin-right: 5px;
+}
+
+li .cancel-btn:hover {
+  background-color: #c62828;
+}
+
+.todo-list li .edit-btn {
+  background-color: #2196F3;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.todo-list li .edit-btn:hover {
+  background-color: #0c7cd5;
+}
+
+.todo-list li .delete-btn {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.todo-list li .delete-btn:hover {
+  background-color: #c62828;
+}
+
+li .todo-checkbox {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+ 
+.completed{
+  color: #808080;
+	text-decoration: line-through;
+}
+
+

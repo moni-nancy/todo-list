@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+     <h1> My Todo List <img src="images/write.png" alt="" style="width: 40px;"/></h1>
+    </div>
+    
+    <div class="input-container">
+      <form>
+     <input type="text" id="todo-input" class="input-field" placeholder="Add a new todo...">
+      <button type="button" id="add-btn" class="add-button">Add</button> 
+      </form>
+
+    </div>
+    <ul id="todo-list" class="todo-list"></ul>
+  </div>
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
